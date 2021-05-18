@@ -39,6 +39,7 @@ import { ProcessHTTPMsgService} from './services/process-httpmsg.service';
 import{ AppRoutingModule } from './app-routing/app-routing.module';
 
 import { baseURL } from './shared/baseurl';
+import { HighlightDirective } from './directives/highlight.directive';
 
 
 
@@ -53,7 +54,8 @@ import { baseURL } from './shared/baseurl';
     AboutComponent,
     HomeComponent,
     ContactComponent,
-    LoginComponent
+    LoginComponent,
+    HighlightDirective
   ],
   imports: [
     AppRoutingModule,
